@@ -41,3 +41,39 @@
     padding: 0 10px;
     color: #525763;
 }
+
+#miliseconds
+{
+    font-size: 30px;
+    color: #525763;
+}
+
+.buttons
+{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn
+{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: all 0.2s ease-in-out;
+}
+.btn:hover
+{
+    transform: scale(1.1);
+}
+#startbtn
+{
+    background-color: #175cff;
+    color: #fff;
+}
+#pausetbtn, #resumebtn
+{
+    display: none;
+}
